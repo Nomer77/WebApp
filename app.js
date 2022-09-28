@@ -19,8 +19,8 @@ btn1.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 1!");
-		btn1..textContent = 'Remove';
+		tg.MainButton.setText("Вы выбрали tovar 1!");
+		btn1.textContent = 'Remove';
 		item = "1";
 		tg.MainButton.show();
 	}
