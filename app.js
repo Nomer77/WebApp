@@ -20,7 +20,6 @@ btn1.addEventListener("click", function(){
 	}
 	else {
 		tg.MainButton.setText("Вы выбрали tovar 1!");
-		btn1.textContent = 'Remove';
 		item = "1";
 		tg.MainButton.show();
 	}
