@@ -21,9 +21,9 @@ btn1.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 1!");
+		tg.MainButton.setText("Вы выбрали something 1!");
+		btn1.textContent = 'Ку-ку';
 		item = "1";
-		
 		tg.MainButton.show();
 	}
 });
